@@ -10,7 +10,7 @@ export default function FloatingContactButton({
   label = 'Pay for Course',
 }: FloatingContactButtonProps) {
   return (
-    <div className="fixed bottom-4 right-4 md:bottom-6 md:right-6 sm:bottom-10 sm:right-10 z-50 animate-fab-entrance group">
+    <div className="fixed bottom-4 right-4 md:bottom-6 md:right-6 sm:bottom-15 sm:right-10 z-50 animate-fab-entrance group">
       {/* Tooltip — visible on hover, desktop only */}
       <span
         className="
